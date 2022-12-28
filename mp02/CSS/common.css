@@ -1,0 +1,19 @@
+/*공통CSS 시작*/
+
+    * {margin: 0; padding: 0;}
+
+    body {
+        font-family: "돋움";
+        font-size: 12px;
+    }
+
+    ul {list-style-type: none;}
+
+    .clear {clear: both;}
+
+    #wrap {
+        width: 970px;
+        margin: 0 auto;
+    }
+    
+/*공통CSS 끝*/

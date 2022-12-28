@@ -1,0 +1,158 @@
+    /*aside CSS 시작 */
+        aside {
+            width: 190px;
+            float: left;
+            /* border: 1px solid red; */
+        }
+        
+        aside #login_box {
+            width: 190px;
+            height: 120px;
+            border: 1px solid #bbbbbb;
+            border-radius: 10px;
+        }
+        
+        aside #login_title {
+            margin: 10px 0 0 10px;
+        }
+       
+        aside #input_button {
+            margin: 10px 0 0 10px;
+        }
+        aside #login_input {
+            float: left;
+        }
+        aside #login_btn {
+            float: left;
+            margin-top: 3px;
+            margin-left: 5px;
+        }
+        aside #login_input input {
+            width: 100px;
+            height: 20px;
+            border: 1px solid #bbbbbb;
+        }
+        aside #login_input li {
+            margin-top: 2px;
+        }
+        aside #join_search {
+            margin-top: 10px;
+            margin-left: 5px;
+            /* border: 1px solid red; */
+        }
+
+
+        aside #guestbook {
+            border: 1px solid #bbbbbb;
+            border-radius: 10px;
+            width: 190px;
+            height: 130px;
+            margin-top: 15px;
+            background-color: rgb(220, 235, 247);
+        }
+
+        aside #guestbook_title {
+            border-bottom: 1px solid #bbbbbb;
+            margin-left: 10px;
+            padding-top: 10px;
+            width: 170px;
+        }
+        aside #guestbook ul {
+            margin: 10px 0 0 40px;
+        }
+        aside #guestbook li {
+            margin-top: 5px;
+            list-style-image: url(../img/icon_blue.gif);
+        }
+    /*aside CSS 끝 */
+
+
+    /*section CSS 시작 */
+        section#main {
+            width: 770px;
+            float: right;
+            /* border: 1px solid red; */
+        }
+
+        section#main #n_f_y {
+            height: 250px;
+            position: relative;
+            margin-top: 10px;
+            /* border: 1px solid blue; */
+        }
+    /**/
+
+        section#main #notice {
+            width: 360px;
+            position: absolute;
+            /* border: 1px solid blue; */
+        }
+        section#main .latest_title{
+            border-bottom: 1px solid #bbbbbb;
+            padding-bottom: 3px;
+        }
+        section#main .latest_title img.latest_img {
+            float: left;
+        }
+        section#main .latest_title img.more {
+            float: right;
+        }
+
+    /**/
+        section#main .latest_content .bp_img {
+            float: left;
+            margin: 10px 0 0 20px;
+        }
+        section#main .latest_content .list {
+            float: right;
+        }
+        section#main .latest_content li {
+            margin: 10px 0 10px 0;
+        }
+        section#main .latest_content li div{
+            float: left;
+        }
+        section#main .latest_content li .subject{
+            width: 170px;
+        }
+
+    /**/
+        section#main #free {
+            width: 360px;
+            position: absolute;
+            top: 120px;
+            /* border: 1px solid blue; */
+        }
+
+    /**/
+        section#main #youtube {
+            width: 360px;
+            height: 250px;
+            position: absolute;
+            left: 380px;
+            border: 1px solid blue;
+        }
+        section#main #youtube img{
+            margin-top: 10px;
+            margin-left: 45px;
+        }
+
+    /**/
+        section#main #gallery_box {
+            border: 1px solid #bbbbbb;
+            border-radius: 10px;
+            width: 750px;
+            height: 200px;
+            margin-top: 10px;
+            margin-left: 5px;
+        }
+        
+        section .item {
+            float: left;
+            text-align: center;
+            margin-left: 30px;
+            padding: 20px 0 0 20px;
+        }
+        section .item li {
+            margin-top: 3px;
+        }

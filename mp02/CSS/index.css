@@ -1,0 +1,247 @@
+    /*공통CSS 시작*/
+
+        * {margin: 0; padding: 0;}
+
+        body {
+            font-family: "돋움";
+            font-size: 12px;
+        }
+
+        ul {list-style-type: none;}
+
+        .clear {clear: both;}
+
+        #wrap {
+            width: 95%;
+            margin: 0 auto;
+        }
+        
+    /*공통CSS 끝*/
+
+
+    /*header CSS 시작*/
+        header {
+            height: 100px;
+            position: relative;
+        }
+        header #logo {
+            position: absolute;
+            top: 10px;
+            left: 20px;
+        }
+
+        header #top_menu {
+            position: absolute;
+            top: 10px;
+            right: 20px;
+        }
+
+        header #main_menu {
+            width: 770px;
+            height: 35px;
+            background-image: url(img/main_menu_bg.png);
+            background-repeat: no-repeat; 
+            position: absolute;
+            top: 40px;
+            left: 220px;              
+        }
+        
+        header #main_menu li {
+            display: inline-block;
+            margin: 10px 30px 0 50px;
+            font-size: 13px;
+            color:white;            
+        } 
+        header #main_menu a:link {
+            text-decoration: none;
+            color:white;        
+        }
+        header #main_menu a:visited{
+            color: white;
+        }
+        /*header CSS 끝*/
+
+
+        /*aside CSS 시작 */
+        aside {
+            width: 200px;
+            float: left;
+        }
+        
+        aside #login_box {
+            width: 200px;
+            height: 120px;
+            border: 1px solid #bbbbbb;
+            border-radius: 15px;
+        }
+        
+        aside #login_title {
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+       
+        aside #input_button {
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+        aside #login_input {
+            float: left;
+        }
+        aside #login_btn {
+            margin-top: 5px;
+            margin-left: 5px;
+        }
+        aside #login_input input {
+            width: 100px;
+            height: 20px;
+            border: 1px solid #bbbbbb;
+        }
+        aside #login_input li {
+            margin-top: 2px;
+        }
+        aside #join_search {
+            margin-top: 10px;
+            margin-left: 8px;
+        }
+
+
+        aside #guestbook {
+            border: 1px solid #bbbbbb;
+            border-radius: 15px;
+            width: 200px;
+            height: 130px;
+            margin-top: 15px;
+            background-color: rgb(221, 231, 238);
+        }
+
+        aside #guestbook_title {
+            border-bottom: 1px solid #bbbbbb;
+            margin: 5px 0 0 10px;
+        }
+        aside #guestbook ul {
+            margin: 10px 0 0 50px;
+        }
+        aside #guestbook li {
+            margin-top: 8px;
+            list-style-image: url(../img/icon_blue.gif);
+        }
+        /*aside CSS 끝 */
+
+
+        /*section CSS 시작 */
+        section#main {
+            width: 770px;
+            float: right;
+            /* border: 1px solid red; */
+        }
+
+        section#main #n_f_y {
+            height: 250px;
+            position: relative;
+            margin-top: 10px;
+            /* border: 1px solid blue; */
+        }
+        /**/
+
+        section#main #notice {
+            width: 370px;
+            position: absolute;
+            /* border: 1px solid blue; */
+        }
+        section#main .latest_title{
+            border-bottom: 1px solid #bbbbbb;
+            padding-bottom: 3px;
+        }
+        section#main .latest_title img.latest_img {
+            float: left;
+        }
+        section#main .latest_title img.more {
+            float: right;
+        }
+
+        /**/
+        section#main .latest_content .bp_img {
+            float: left;
+            margin: 10px 0 0 20px;
+        }
+        section#main .latest_content .list {
+            float: right;
+        }
+        section#main .latest_content li {
+            margin: 10px 0 10px 0;
+        }
+        section#main .latest_content li div{
+            float: left;
+        }
+        section#main .latest_content li .date{
+            margin-left: 10px;
+        }
+
+        /**/
+        section#main #free {
+            width: 370px;
+            position: absolute;
+            top: 120px;
+            /* border: 1px solid blue; */
+        }
+
+        /**/
+        section#main #youtube {
+            width: 370px;
+            height: 250px;
+            position: absolute;
+            left: 400px;
+            /* border: 1px solid blue; */
+        }
+        section#main #youtube img{
+            margin-top: 10px;
+            margin-left: 50px;
+        }
+
+        /**/
+        section#main #gallery_box {
+            border: 1px solid #bbbbbb;
+            border-radius: 10px;
+            width: 750px;
+            height: 200px;
+            margin-top: 10px;
+        }
+        section .item {
+            float: left;
+            text-align: center;
+            margin-left: 30px;
+            padding: 20px 0 0 20px;
+        }
+        section .item li {
+            margin-top: 3px;
+        }
+
+
+        /*footer CSS 시작 */
+        footer {
+            height: 100px;
+            border-top: 1px solid #bbbbbb;
+            margin-top: 30px;
+        }
+
+        footer #footer_logo {
+            float: left;
+            margin: 5px 0 0 200px;
+        }
+
+        footer #address {
+            float: left;
+            margin-left: 20px;
+            margin-top: 20px;
+            font-size: 13px;
+        }
+
+        footer #footer_sns {
+            float: right;
+            margin-right: 10px;
+            margin-top: 20px;
+        }
+        footer #footer_sns li {
+            display: inline;
+        }
+

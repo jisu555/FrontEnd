@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aside</title>
+    <style>
+        * {margin: 0; padding: 0;} 
+        body {
+            font-family: "돋움";
+            font-size: 12px;
+        }
+        ul {list-style: none;}
+
+        aside {
+            width: 200px;
+            float: left;
+        }
+        
+        aside #login_box {
+            width: 200px;
+            height: 120px;
+            border: 1px solid #bbbbbb;
+            border-radius: 15px;
+        }
+        
+        aside #login_title {
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+       
+        aside #input_button {
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+        aside #login_input {
+            float: left;
+        }
+        aside #login_btn {
+            margin-top: 5px;
+            margin-left: 5px;
+        }
+        aside #login_input input {
+            width: 100px;
+            height: 20px;
+            border: 1px solid #bbbbbb;
+        }
+        aside #login_input li {
+            margin-top: 2px;
+        }
+        aside #join_search {
+            margin-top: 10px;
+            margin-left: 8px;
+        }
+
+
+        aside #guestbook {
+            border: 1px solid #bbbbbb;
+            border-radius: 15px;
+            width: 200px;
+            height: 130px;
+            margin-top: 15px;
+            background-color: rgb(221, 231, 238);
+        }
+
+        aside #guestbook_title {
+            border-bottom: 1px solid #bbbbbb;
+            margin: 5px 0 0 10px;
+        }
+        aside #guestbook ul {
+            margin: 10px 0 0 50px;
+        }
+        aside #guestbook li {
+            margin-top: 8px;
+            list-style-image: url(img/icon_blue.gif);
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <aside>
+    <article id="login_box">
+        <img id="login_title" src="img/ttl_login.png">
+        <div id = "input_button">
+            <ul id = "login_input">
+                <li> <input type="text" name="id"></li>
+                <li> <input type="password" name="pw"></li>
+            </ul>
+            <img id="login_btn" src="img/btn_login.gif">
+        </div>
+
+        <div id="join_search">
+            <img src="img/btn_join.gif">
+            <img src="img/btn_search.gif">
+        </div>
+    </article>
+
+    <article id="guestbook">
+        <div id="guestbook_title">
+            <img src="img/ttl_memo.gif">
+        </div>
+        <ul>
+            <li>안녕하세요!</li>
+            <li>안녕하세요!</li>
+            <li>안녕하세요!</li>
+            <li>안녕하세요!</li>
+        </ul>
+    </article>
+    </aside>
+
+
+</body>
+</html>

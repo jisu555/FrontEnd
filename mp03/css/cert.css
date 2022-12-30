@@ -1,0 +1,94 @@
+
+#main {margin: 0 auto;}
+section#right {
+    /* border: 1px solid red; */
+    width: 750px;
+    float: right;
+    margin-top: 15px;
+}
+section#right h3 {
+    border-bottom: 2px solid rgb(39, 38, 38);
+    padding-bottom: 5px;
+}
+section#right span {
+    color: #96c11f;
+}
+section#right #process {
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+section table {
+    border-collapse: collapse;
+    width: 100%;
+    border-top: 2px solid #97b939;
+    border-left: 2px solid #bbbbbb;
+    border-right: 2px solid #bbbbbb;
+    border-bottom: 2px solid #bbbbbb;
+}
+section table .title {
+    height: 50px;
+    background-color: #e9e8e9;
+}
+section table th {
+    border-bottom: 1px solid #bbbbbb;
+}
+section table .items {
+    text-align: center;
+    height: 70px;
+    border-bottom: 1px solid #bbbbbb;
+}
+section table .total_price {
+    height: 30px;
+    border-bottom: 2px solid #bbbbbb;
+}
+section table .total_price td {
+    padding-right: 10px;
+    text-align: right;
+}
+section table .order_status_box {
+    background-color: #e9e8e9;
+    height: 100px;
+}
+section table .order_status_box td {
+    vertical-align: top;
+}
+
+section table .order_status {
+    position: relative;
+    /* border: 1px solid red; */
+}
+section table .order_status p {
+    position: absolute;
+    top: 45px;
+    left: 20px;
+}
+section table .order_status div {
+    position: absolute;
+    top: 20px;
+    left: 500px;
+}
+
+section .order_status li {
+    display: inline;
+}
+section#right .order_status .col1 {
+    width: 150px;
+    text-align: right;
+}
+section#right .order_status .col2 {
+    width: 80px;
+    text-align: right;
+}
+
+
+
+/**/
+section #order_btn {
+    margin-top: 20px;
+    text-align: center;
+}
+section #order_btn li {
+    display: inline;
+}

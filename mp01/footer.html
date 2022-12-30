@@ -4,9 +4,84 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>footer</title>
+    <style>
+        *{margin: 0; padding: 0;}
+        body {
+            font-family: "맑은 고딕";
+            font-size: 12px;
+            color: #444444;
+        }
+        ul {list-style: none;}
+        .clear {clear: both;}
+        /*공통 CSS 끝*/
+
+        #page {
+            width: 980px;
+            margin: 0 auto;
+            /* border: 1px solid red; */
+        }
+
+        footer {
+            border-top: 3px solid #06b5b8;
+        }
+
+        footer #address {
+            margin: 15px 0 0 5px;
+            float: left;
+        }
+        footer #link {
+            /* border: 1px solid red; */
+            float: right;
+            margin-top: 15px;
+        }
+        footer #company_info {
+            margin-top: 15px;
+            
+        }
+
+        footer #link select {
+            margin: 5px 0 0 50px;
+            width: 120px;
+            height: 18px;
+        
+        }
+        footer #icons {
+            margin-top: 5px;
+            margin-right: 5px;
+            text-align: right;
+        }
+       
+     
+    </style>
 </head>
 <body>
-    
+    <div id="page">
+        <footer>
+            <article id="address">
+                <ul id="footer_menu">
+                    <li>개인정보 취급방침 | 이용 안내 | 이메일 무단수집 거부</li>
+                    <li>서민금융119서비스 | 보험범죄 신고 | 전자 민원 접수 | 보험약관 안내 | 금융사기신고센터</li>
+                </ul>
+                <!-- <div> -->
+                    <img id="company_info" src="img/address.gif">
+                <!-- </div> -->
+            </article>
+
+            <article id="link">
+                <img src="img/phonenum.gif"><br>
+                <select>
+                    <option>네이버</option>
+                    <option>구글</option>
+                    <option>다음</option>
+                </select>
+                <div id="icons">
+                    <img src="img/f.gif">
+                    <img src="img/b.gif">
+                    <img src="img/t.gif">
+                </div>
+            </article>
+        </footer>
+    </div>
 </body>
 </html>

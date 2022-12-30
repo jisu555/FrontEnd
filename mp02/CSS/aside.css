@@ -1,0 +1,46 @@
+    /*aside CSS 시작 */
+    aside {
+        width: 190px;
+        float: left;
+        /* border: 1px solid red; */
+    }
+    
+    aside #login_box {
+        width: 190px;
+        height: 120px;
+        border: 1px solid #bbbbbb;
+        border-radius: 10px;
+    }
+    
+    aside #login_title {
+        margin: 10px 0 0 10px;
+    }
+   
+    aside #input_button {
+        margin: 10px 0 0 10px;
+    }
+    aside #login_input {
+        float: left;
+    }
+    aside #login_btn {
+        float: left;
+        margin-top: 3px;
+        margin-left: 5px;
+    }
+    aside #login_input input {
+        width: 100px;
+        height: 20px;
+        border: 1px solid #bbbbbb;
+    }
+    aside #login_input li {
+        margin-top: 2px;
+    }
+    aside #join_search {
+        margin-top: 10px;
+        margin-left: 5px;
+        /* border: 1px solid red; */
+    }
+
+
+    
+/*aside CSS 끝 */

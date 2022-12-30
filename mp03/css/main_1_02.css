@@ -1,0 +1,108 @@
+#main2 {
+    width: 980px;
+    margin: 0 auto;
+}
+
+section#special_shop {
+    border: 1px solid #bbbbbb;
+    width: 580px; height: 383px;
+    margin-top: 15px ;
+    float: left;
+}
+section#special_shop h3{
+    color: #96c11f;
+    border-bottom: 3px solid #bbbbbb;
+    padding-bottom: 5px;
+    margin: 15px 5px 10px 20px;
+}
+section#special_shop ul {
+    margin: 20px 0 0 30px;
+    
+}
+section#special_shop li {
+    float: left;
+    border: 1px solid #bbbbbb;
+    padding: 15px;
+    margin: 0 5px 0 5px;
+}
+
+section#special_banner {
+    /* border: 1px solid blue; */
+    width: 380px; height: 370px;
+    float: left;
+    margin: 10px 0 0 3px;
+}
+section#special_banner li {
+    list-style: none;
+}
+
+section#special_banner #banner1 {
+    /* border: 1px solid red; */
+    float: left;
+    width: 398px; height: 120px;
+    margin: 3px;
+}
+section#special_banner #banner1 .b_box1 {
+    z-index: 1;
+    position: relative;
+    top: 0; left: 0;
+}
+section#special_banner #banner1 .b_box2 {
+    z-index: 2;
+    position: relative;
+    top: -125px; left: 130px;           
+}
+section#special_banner #banner1 .b_box3 {
+    z-index: 3;
+    position: relative;
+    top: -245px; left: 260px;           
+}
+
+section#special_banner #banner2 {
+    float: left;
+    width: 398px; height: 120px;
+    margin-top: 7px ;
+    margin-left: 3px;
+}
+section#special_banner #banner2 .b_box1 {
+    z-index: 1;
+    position: relative;
+    top: 0; left: 0;
+}
+section#special_banner #banner2 .b_box2 {
+    z-index: 2;
+    position: relative;
+    top: -125px; left: 130px;           
+}
+section#special_banner #banner2 .b_box3 {
+    z-index: 3;
+    position: relative;
+    top: -245px; left: 260px;           
+}
+
+section#special_banner #banner3 {
+    float: left;
+    width: 398px; height: 120px;
+    margin-top: 10px ;
+    margin-left: 3px;
+}
+section#special_banner #banner3 .b_box1 {
+    z-index: 1;
+    position: relative;
+    top: 0; left: 0;
+}
+section#special_banner #banner3 .b_box2 {
+    z-index: 2;
+    position: relative;
+    top: -125px; left: 130px;           
+}
+section#special_banner #banner3 .b_box3 {
+    z-index: 3;
+    position: relative;
+    top: -245px; left: 260px;           
+}
+
+#line {
+    border-bottom: 1px solid #96c11f;
+    margin-top: 20px;
+}

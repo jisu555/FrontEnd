@@ -1,0 +1,30 @@
+#new {
+    width: 980px;
+    margin: 0 auto;
+}
+h3{
+    padding: 10px 0 10px 15px;
+}
+h3 span {
+    color: #96c11f;
+}
+.item {
+    float: left;
+    text-align: center;
+    margin: 15px;
+}
+.subject {
+    margin-top: 5px;
+    color: #96c11f;
+    font-weight: bold;
+    font-size: 13px;
+}
+.comment {
+    margin-top: 3px;
+    color: #888888;
+}
+.price {
+    margin-top: 3px;
+    color: #444444;
+    font-weight: bold
+}

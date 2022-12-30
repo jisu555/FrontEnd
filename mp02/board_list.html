@@ -4,9 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>board_list</title>
+    <link rel = "stylesheet" type="text/css" href="CSS/common.css">
+    <link rel = "stylesheet" type="text/css" href="CSS/header.css">
+    <link rel = "stylesheet" type="text/css" href="CSS/footer.css">
+    <link rel = "stylesheet" type="text/css" href="CSS/aside.css">
 </head>
 <body>
-    
+    <div id="wrap">
+        <header>
+            <a href="index.html">
+                <img id="logo" src="img/logo.png">
+            </a>
+            
+            <nav id="top_menu">
+                HOME | LOGIN | JOIN | NOTICE
+            </nav>
+            <nav id="main_menu">
+                <ul>
+                    <li><a href="board_list.html">자유 게시판</a></li>
+                    <li>기타 연주</li>
+                    <li>공동 구매</li>
+                    <li>연주회 안내</li>
+                    <li>회원 게시판</li>
+                </ul>
+            </nav>
+        </header>
+
+        <aside>
+            <article id="login_box">
+                <img id="login_title" src="img/ttl_login.png">
+                <div id = "input_button">
+                    <ul id = "login_input">
+                        <li> <input type="text" name="id"></li>
+                        <li> <input type="password" name="pw"></li>
+                    </ul>
+                    <img id="login_btn" src="img/btn_login.gif">
+                </div>
+        
+                <div id="join_search">
+                    <img src="img/btn_join.gif">
+                    <img src="img/btn_search.gif">
+                </div>
+            </article>
+        
+            
+            </aside>
+
+        </div> <!--wrap div-->
 </body>
 </html>

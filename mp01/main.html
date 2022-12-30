@@ -4,32 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>실습 main </title>
+    <title>main</title>
     <style>
+        *{margin: 0; padding: 0;}
+        body {
+            font-family: "맑은 고딕";
+            font-size: 12px;
+            color: #444444;
+        }
         ul {list-style: none;}
+        .clear {clear: both;}
+        /*공통 CSS 끝*/
 
-        #clear {clear: both;}
-       
-        /* main 상단 CSS 시작 */
         #page {
-            width: 1000px;
-            margin: 10px;
+            width: 980px;
+            margin: 0 auto;
+        }
+        main {
+            margin-top: 10px;
+        }
+        #banner {
+            height: 110px;
+            background-color: #00a8ab;
+            /* border: 1px solid red; */
+        }
+        #banner ul {
+            margin-top: 5px;
         }
         #banner li {
-            float: left;
+            display: inline;
+            margin-left: 30px;
         }
-        /* main 상단 CSS 끝 */
-
-
-        /* main 중앙 CSS 시작*/
 
         #customer {
-            border: 1px solid red;
-            width: 300px; height: 130px;
+            width: 300px;
+            height: 130px;
             float: left;
+            /* border: 1px solid red; */
         }
-
         #customer .title {
+            float: left;
             margin-left: 10px;
         }
         #customer .more {
@@ -37,158 +51,186 @@
         }
 
         #notice {
-            border: 1px solid blue;
-            width: 300px; height: 130px;
+            width: 300px;
+            height: 130px;
             float: left;
-            margin-left: 30px;
+            margin-left: 40px;
+            /* border: 1px solid red; */
         }
         #notice .title {
             float: left;
+            /* margin-left: 10px; */
         }
         #notice .more {
             float: right;
         }
-        #notice #n1 {
-            float: left;
-        }
-        #notice #date {
-            float: right;
-        }
         #notice ul {
-            font-size: 13px;
-            margin-top: 40px;
+            margin-top: 10px;
+        }
+        #notice li {
+            margin-top: 5px;
+        }
+        #notice .subject {
+            float: left;
+            margin-left: 10px;
+        }
+        #notice .date {
+            float: right;
+            margin-right: 5px;
         }
 
         #faq {
+            width: 300px;
+            height: 130px;
             float: left;
-            border: 1px solid green;
-            width: 300px; height: 130px;
-            margin-left: 30px;
+            margin-left: 40px;
+            margin-top: 10px;
+            /* border: 1px solid red; */
         }
-        
-        /*main 중앙 CSS 끝--> */
 
+        .line {
+            border-top: 1px solid #bbbbbb;
+        }
+
+        #sitemap {
+            padding: 15px 0 0 15px;
+        }
+        #sitemap div {
+            /* border: 1px solid red; */
+            height: 140px;
+            float: left;
+            margin: 0px 15px 0 15px;
+        }
+        #sitemap h3 {
+            font-size: 15px;
+            color: #00a8ab;
+            margin-left: 15px;
+        }
+        #sitemap li {
+            list-style-image: url(img/blue_dot.gif);
+            margin: 5px 0 0 20px;
+        }
 
     </style>
 </head>
 <body>
-    <!-- main 상단 시작 -->
     <div id="page">
         <main>
-        <section id="banner">
-            <ul>
-                <li><img src="/mp01/img/banner01.gif" width="300px" height="120px"></li>
-                <li><img src="/mp01/img/banner_bar.gif" height="120px"></li>
-                <li><img src="/mp01/img/banner02.gif" width="300px" height="120px"></li>
-                <li><img src="/mp01/img/banner_bar.gif" height="120px"></li>
-                <li><img src="/mp01/img/banner03.gif" width="300px" height="120px"></li>
-            </ul>
-        </section>
+            <section id="banner">
+                <ul>
+                    <li><img src="img/banner01.gif"></li>
+                    <li><img src="img/banner_bar.gif"></li>
+                    <li><img src="img/banner02.gif"></li>
+                    <li><img src="img/banner_bar.gif"></li>
+                    <li><img src="img/banner03.gif"></li>
+                </ul>
+            </section>
         </main>
     </div>
-    <!-- main 상단 끝  -->
 
-    <div id="clear"></div>
-
-    <!-- main 중앙 시작 -->
-    
     <div id="page">
         <main>
         <article id="customer">
-            <img class="title" src="/mp01/img/customer.gif">
-            <img class="more" src="/mp01/img/more.gif">
-        </article> 
-        
-        <article id="notice">
-            <img class="title" src="/mp01/img/notice.gif">
-            <img class="more" src="/mp01/img/more.gif">
+            <img class="tilte" src="img/title_customer.gif">
+            <img class="more" src="img/more.gif">
+            <img class="phone" src="img/customer_phone.gif">
+        </article>
 
+        <article id="notice">
+            <img class="tilte" src="img/title_notice.gif">
+            <img class="more" src="img/more.gif">
+            <div class="clear"></div>
             <ul>
                 <li>
-                    <div class="n1">새로운 상품의 출시를 알려드립니다.</div>
+                    <div class="subject">새로운 상품의 출시를 알려드립니다.</div>
                     <div class="date">2014-03-03</div>
                     <div class="clear"></div>
                 </li>
                 <li>
-                    <div class="n1">새로운 상품의 출시를 알려드립니다.</div>
+                    <div class="subject">새로운 상품의 출시를 알려드립니다.</div>
                     <div class="date">2014-03-03</div>
                     <div class="clear"></div>
                 </li>
                 <li>
-                    <div class="n1">새로운 상품의 출시를 알려드립니다.</div>
+                    <div class="subject">새로운 상품의 출시를 알려드립니다.</div>
                     <div class="date">2014-03-03</div>
                     <div class="clear"></div>
                 </li>
                 <li>
-                    <div class="n1">새로운 상품의 출시를 알려드립니다.</div>
+                    <div class="subject">새로운 상품의 출시를 알려드립니다.</div>
                     <div class="date">2014-03-03</div>
                     <div class="clear"></div>
-                </li>    
+                </li>
             </ul>
         </article>
 
         <article id="faq">
-            <img src="/mp01/img/banner_faq.gif">
+            <img src="img/faq.gif">
+            <img src="img/cal.gif">
         </article>
+        <div class="clear"></div>
+        <div class="line"></div>
         </main>
     </div>
 
-    <!-- main 중앙 끝 -->
-
-    <!-- main 하단 시작 -->
-    
     <div id="page">
         <main>
-        <section id="t">
-        <div>
-            <h3>손해보험 상식</h3>
-            <ul>
-                <li>손해보험이란?</li>
-                <li>나에게 필요한 보험은?</li>
-                <li>보험약관의 중요성</li>
-                <li>손해보험의 특징</li>
-            </ul>
-        </div>
-        <div>
-            <h3>루바토 보험의 장점</h3>
-            <ul>
-                <li>보험료 저렴</li>
-                <li>신속한 처리 및 보상</li>
-                <li>만기 시 원리금 보장</li>
-            </ul>
-        </div>
-        <div>
-            <h3>고객센터</h3>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </div>
-        <div>
-            <h3>마이페이지</h3>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </div>
-        <div>
-            <h3>가입안내</h3>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </div>
-        <div>
-            <h3>회사소개</h3>
-            <li></li>
-            <li></li>
-        </div>
-        </section>
+            <section id="sitemap">
+                <div>
+                    <h3>손해보험 상식</h3>
+                    <ul>
+                        <li>손해보험이란?</li>
+                        <li>나에게 필요한 보험은?</li>
+                        <li>보험약관의 중요성</li>
+                        <li>손해보험의 특징</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>루바토 보험의 장점</h3>
+                    <ul>
+                        <li>보험료 저렴</li>
+                        <li>신속한 처리 및 보상</li>
+                        <li>만기 시 원리금 보장</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>고객센터</h3>
+                    <ul>
+                        <li>전국 지점 안내</li>
+                        <li>손해배상 안내</li>
+                        <li>손해보험 FAQ</li>
+                        <li>질문과 답변</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>마이페이지</h3>
+                    <ul>
+                        <li>계약 조회/변경</li>
+                        <li>보험 계약 갱신</li>
+                        <li>보험료 납입</li>
+                        <li>증명서 발급</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>가입 안내</h3>
+                    <ul>
+                        <li>공인인증센터</li>
+                        <li>인증서 발급/갱신</li>
+                        <li>인증서 폐기</li>
+                        <li>웹 로그인</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>회사 소개</h3>
+                    <ul>
+                        <li>기업소개</li>
+                        <li>찾아오시는 길</li>
+                    </ul>
+                </div>
+
+            </section>
+            <!-- <div class="clear"></div> -->
         </main>
     </div>
-    
-    <!-- main 하단 끝 -->
-
-
 </body>
 </html>

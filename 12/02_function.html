@@ -8,15 +8,14 @@
 </head>
 <body>
     <script>
-        var x=1;
-        var sum=0;
-        while(1) {      //무한반복
-            sum+=x;
-            x++;
-            if(x==10001)  // 한 줄이라 {}중괄호 생략가능
-                break;
+        function printMsg(name, age) {
+            document.write("학생이름 : <b>" +name + "</b><br>");
+            document.write("학생나이 : <b>" +age + "</b><br>");
         }
-        document.write("1~10000까지 합 : <b>" + sum + "</b>");
+
     </script>
+
+    <button type="button" onclick="printMsg('홍길동', 21)"> 학생정보</button>
+
 </body>
 </html>

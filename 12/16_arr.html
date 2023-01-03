@@ -8,15 +8,15 @@
 </head>
 <body>
     <script>
-        var x=1;
-        var sum=0;
-        while(1) {      //무한반복
-            sum+=x;
-            x++;
-            if(x==10001)  // 한 줄이라 {}중괄호 생략가능
-                break;
+        var x=5;
+        var arr=[100, "Seoul", true, x];
+        function printArr(){
+            var i;
+            for(i=0; i<arr.length; i++) {
+                document.write("배열 데이터 [" + i + "] =" + arr[i]+ "<br>");
+            }
         }
-        document.write("1~10000까지 합 : <b>" + sum + "</b>");
+        printArr();
     </script>
 </body>
 </html>

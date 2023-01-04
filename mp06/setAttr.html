@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{margin: 0; padding: 0;}
+
+        #clear {
+            clear: both;
+        }    
+
+        #wrap {
+            /* border: 1px solid yellow; */
+            position: absolute;
+            top: 200px;
+            left: 200px;
+        }
+
+        h1 {
+            position: relative;
+            top: 10px;
+            left: 10px;
+        }
+
+        #dashed {
+            border: 2px dashed silver;
+            width: 230px;
+            height: 230px;
+            position: absolute;
+            top : 75px;
+            left: 8px;
+        }
+
+        #imagebox {
+            float: left;
+        }
+
+        
+        .row {
+            /* border: 1px solid red; */
+            margin-top: 30px;
+        }
+        .row ul {
+            list-style-type: none ;
+        }
+        .row ul li {
+            display: inline-table;
+        }
+        
+        .row ul #sub {
+            width: 70px;
+            margin: 0 5px 0 5px;
+        }
+
+        #mainbox {
+            /* border: 1px solid blue; */
+            margin-top : 30px ;
+            /* float: left; */
+        }
+
+        #mainbox img {
+            width: 250px;
+        }
+
+        .textbox {
+            /* border: 1px solid gray; */
+            width: 400px;
+            height: 400px;
+            float: right;
+            padding: 50px 0 0 50px;
+
+        }
+        .textbox ul {
+            list-style-type: none;
+
+        }
+        .textbox ul li {
+            margin-top: 5px;
+            
+        }
+        .textbox ul .blue {
+            color: blue;
+        }
+        .textbox #btn> button {
+            margin-top: 30px;
+            padding: 10px 60px 10px 60px;
+        }
+        .textbox ul #detail {
+            margin-top: 40px;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div id="wrap">
+    
+    <h1>에디오피아 게뎁</h1>
+    <div id="imagebox">
+    <!-- 메인 이미지가 출력된 div-->
+    <div id = "mainbox">
+        <img src="images/coffee-pink.jpg" alt="" id="mainboxImage">
+    </div>
+
+    <div id ="dashed"></div>
+
+    <div id="clear"></div>
+    
+    <div class="row">
+        <ul>
+            <li><img id="sub" src="images/coffee-pink.jpg" data-src="images/coffee-pink.jpg" class="pic"></li>
+            <li><img id="sub" src="images/coffee-blue.jpg" data-src="images/coffee-blue.jpg" class="pic"></li>
+            <li><img id="sub" src="images/coffee-gray.jpg" data-src="images/coffee-gray.jpg" class="pic"></li>
+        </ul>
+    </div>
+    </div>
+
+    <div class="textbox">
+        <ul class="text">
+            <li>상품명 : 에디오피아 게뎁</li>
+            <li class="blue">판매가 : 9,000원</li>
+            <li>배송비 : 3,000원</li>
+            <li>(50,000원 이상 구매 시 무료)</li>
+            <li>적립금 : 180원(2%)</li>
+            <li>로스팅 : 2019.06.17</li>
+            <li id="btn"><button>장바구니 담기</button></li>
+            <li class="blue" id="detail">상세 설명 보기</li>
+        </ul>
+    </div>
+    </div>
+    <!-- 자바스크립트-->
+    <script>
+        // class, id 속성을 가져와서 변수에 할당.
+        var pics = document.getElementsByClassName("pic");
+        var mainbox = document.getElementById("mainbox");
+        
+        //for 루프를 돌리면서 썸네일 클릭 시 showMainbox() 함수를 호출
+        for (var i=0; i<pics.length; i++) {
+            pics[i].addEventListener("click", showMainbox);
+        }
+
+        //썸네일 클릭 시 main 이미지를 적용하는 함수
+        function showMainbox() {
+            var mainLocation = this.getAttribute("data-src");
+            mainboxImage.setAttribute("src", mainLocation);
+        }
+    </script>
+
+</body>
+</html>
